@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samuel Nganga - Frontend Developer Portfolio showcasing work experience, education, and projects">
+    <title>Samuel Nganga - Frontend Developer Portfolio</title>
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" 
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <main>
+        <div class="menu">
+            <button class="btn active" data-side="front" aria-label="Navigate to Introduction">Intro</button>
+            <button class="btn" data-side="right" aria-label="Navigate to Work Experience">Work</button>
+            <button class="btn" data-side="back" aria-label="Navigate to Education">Education</button>
+            <button class="btn" data-side="left" aria-label="Navigate to Certificates">Certificates</button>
+            <button class="btn" data-side="top" aria-label="Navigate to Projects">Projects</button>
+            <button class="btn" data-side="bottom" aria-label="Navigate to Contacts">Contacts</button>
+            
+            <div class="cube-indicator">
+                <div class="cube-indicator-title">Current Section</div>
+                <div class="mini-cube" id="miniCube">
+                    <div class="mini-face active" style="transform: rotateY(0deg) translateZ(40px);">Front</div>
+                </div>
+            </div>
+        </div>
+
+        <section class="scene" id="scene">
+            <div class="swipe-hint">← Swipe or use arrow keys →</div>
+            <div class="cube show-front" id="cube" data-side="front">
+                <div class="cube-face cube-face-front">
+                    <div class="intro-wrapper">
+                        <div class="intro">
+                            <h1 class="intro-heading">
+                                Hi, I'm Samuel Nganga,<br>
+                                a <span>Frontend</span> Developer
+                            </h1>
+                            <p class="intro-text">A Computer Science major who has a passion for coding and web development.</p>
+                            <p class="intro-text">I started out with graphic design as a hobby before I transitioned to web development as I did my Computer Science major.</p>
+                        </div>
+                        <div class="image">
+                            <div class="image-wrapper">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sKlgIQ3rpieiLbbor7sNsIEFhfjAhj573w&s" alt="Samuel Nganga profile photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cube-face cube-face-back">
+                    <h2 class="intro-heading">Educa<span>tion</span></h2>
+                    <div class="work-edu-section">
+                        <h3 class="work-edu-heading date">2021-2025</h3>
+                        <div class="work-edu-info">
+                            <h4 class="work-edu-heading company">Maseno University</h4>
+                            <ul>
+                                <li>Bachelor of Science in Computer Science</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="work-edu-section">
+                        <h3 class="work-edu-heading date">2016-2020</h3>
+                        <div class="work-edu-info">
+                            <h4 class="work-edu-heading company">Nairobi School</h4>
+                            <ul>
+                                <li>Kenya Certificate of Secondary Education</li>
+                                <li>Passed with a B+ Grade</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="work-edu-section">
+                        <h3 class="work-edu-heading date">2007-2015</h3>
+                        <div class="work-edu-info">
+                            <h4 class="work-edu-heading company">Molo Academy</h4>
+                            <ul>
+                                <li>Kenya Certificate of Primary Education</li>
+                                <li>Passed with 403 marks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cube-face cube-face-right">
+                    <h2 class="intro-heading">Wo<span>rk</span></h2>
+
+                    <div class="work-edu-section">
+                        <h3 class="work-edu-heading date">2025</h3>
+                        <div class="work-edu-info">
+                            <h4 class="work-edu-heading company">Lish AI Labs - Software Developer/Intern</h4>
+                            <ul>
+                                <li>Developed and implemented responsive and accessible user interface components for a company web application using HTML5, CSS3, JavaScript (ES6+), and React, improving site usability and customer satisfaction.</li>
+                                <li>Translated UI/UX designs from Figma into clean, efficient, and reusable React components, ensuring cross-browser compatibility and mobile responsiveness.</li>
+                                <li>Utilized Git for version control in a team environment, participating in peer code reviews to maintain high code quality.</li>
+                                <li>Debugged and resolved front-end issues and browser inconsistencies, enhancing application stability and user experience consistency.</li>
+                                <li>Participated in Agile sprints, including daily stand-ups and sprint planning meetings, contributing to timely feature delivery.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="work-edu-section">
+                        <h3 class="work-edu-heading date">2024-2025</h3>
+                        <div class="work-edu-info">
+                            <h4 class="work-edu-heading company">Zach Tech Solutions - Technical Support Intern</h4>
+                            <ul>
+                                <li>Diagnosed and resolved hardware and software issues, including system boot failures, application errors, and peripheral malfunctions, restoring critical user functionality.</li>
+                                <li>Managed software lifecycle by installing, configuring, and troubleshooting a suite of applications, including the Microsoft Office suite and other proprietary software.</li>
+                                <li>Addressed and resolved network connectivity issues, which included troubleshooting client devices and repairing faulty network cabling to ensure stable network access.</li>
+                                <li>Utilized Microsoft Excel to organize, manage, and present data in a clear and structured format, enhancing data readability and reporting.</li>
+                                <li>Leveraged Microsoft Access to create relational databases for inventory tracking and to generate custom reports for business analysis.</li>
+                                <li>Gained foundational experience in Java and the Spring Boot framework, which was applied to understand the development of RESTful APIs and backend service logic for web applications.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="work-edu-section">
+                        <h3 class="work-edu-heading date">2016-2020</h3>
+                        <div class="work-edu-info">
+                            <h4 class="work-edu-heading company">JoyNet Cyber - IT Assistant / Customer Service Representative</h4>
+                            <ul>
+                                <li>Provided comprehensive customer support, assisting clients with a range of national online services, including KRA, E-Citizen, Social Health Authority (SHA) registrations and e-passport applications.</li>
+                                <li>Operated and maintained office equipment, including professional-grade printers, and managed document editing and formatting tasks to client specifications.</li>
+                                <li>Designed and produced high-quality graphic materials, such as promotional posters and flyers, using Adobe Photoshop.</li>
+                                <li>Executed professional photo services, including the capture and editing of compliant passport and ID photographs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cube-face cube-face-left">
+                    <h2 class="intro-heading">Certi<span>fi</span>cates</h2>
+                    
+                    <div class="certificate-section">
+                        <h3 class="certificate-date">2025</h3>
+                        <h4 class="certificate-heading">Udemy - FullStack Web Development BootCamp</h4>
+                    </div>
+
+                    <div class="certificate-section">
+                        <h3 class="certificate-date">2025</h3>
+                        <h4 class="certificate-heading">Udemy - Python Software, Application, Games, Automation Development</h4>
+                    </div>
+
+                    <div class="certificate-section">
+                        <h3 class="certificate-date">2020</h3>
+                        <h4 class="certificate-heading">Hobis Kenya - Computer Packages</h4>
+                    </div>
+                </div>
+
+                <div class="cube-face cube-face-top">
+                    <h2 class="intro-heading">Pro<span>jects</span></h2>
+                    <div class="projects">
+                        <div class="project-border">
+                            <div class="project-wrapper">
+                                <div class="visit-wrapper">
+                                    <p class="app-title">Mboga Fresh</p>
+                                    <p class="project-description">Fresh produce delivery platform with real-time inventory management</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">Node.js</span>
+                                        <span class="tech-tag">MongoDB</span>
+                                    </div>
+                                    <a class="visit-app" href="https://github.com/sammy99-cloud/Mboga-Fresh.git" target="_blank" rel="noopener noreferrer" aria-label="Visit Mboga Fresh project on GitHub">
+                                        View Code <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-border">
+                            <div class="project-wrapper">
+                                <div class="visit-wrapper">
+                                    <p class="app-title">Women's Fashion Site</p>
+                                    <p class="project-description">Modern e-commerce platform with responsive design and smooth animations</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">HTML5</span>
+                                        <span class="tech-tag">CSS3</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                    </div>
+                                    <a class="visit-app" href="https://github.com/sammy99-cloud/Women-s-Fashion-site.git" target="_blank" rel="noopener noreferrer" aria-label="Visit Women's Fashion Site project on GitHub">
+                                        View Code <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cube-face cube-face-bottom">
+                    <h2 class="intro-heading">Con<span>tacts</span></h2>
+                    <h3 class="work-edu-heading">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                        Samuel Nganga
+                    </h3>
+                    <h3 class="work-edu-heading">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:sammyngashx99@gmail.com" class="contact-link">sammyngashx99@gmail.com</a>
+                    </h3>
+                    <h3 class="work-edu-heading">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        <a href="tel:+254799125796" class="contact-link">+254 799 125 796</a>
+                    </h3>
+
+                    <div class="social-media-btns">
+                        <a href="#" class="social-link" aria-label="Visit Facebook profile" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Visit LinkedIn profile" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/sammy99-cloud" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub profile" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Visit CodePen profile" title="CodePen">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="keyboard-hint">
+        💡 Use arrow keys to navigate
+    </div>
+<script src="index.js"></script>
+    </body>
+</html>
